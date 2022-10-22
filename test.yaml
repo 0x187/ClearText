@@ -43,7 +43,6 @@ proxy-groups:
     proxies:
       - "KR | Azure"
       - "US | DigitalVirt"
-      - "JP | Azure"
       - "FR | Azure"
 
 proxies:
