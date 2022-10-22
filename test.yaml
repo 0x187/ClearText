@@ -65,17 +65,6 @@ proxies:
     ws-opts:
       path: "/cf9dab09-f858-45cc-a5c7-542c83fe532d"
   
-  - name: "JP | Azure"
-    type: vless
-    server: "jp.rycbar.top"
-    port: 443
-    uuid: "cc612472-6d21-48d6-fae2-fcc66b52392e"
-    tls: true
-    cipher: none
-    network: ws
-    ws-opts:
-      path: "/cc612472-6d21-48d6-fae2-fcc66b52392e"
-
   - name: "FR | Azure"
     type: vmess
     server: "fr.rycbar.top"
