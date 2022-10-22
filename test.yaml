@@ -41,12 +41,12 @@ proxy-groups:
   - name: PROXY
     type: select
     proxies:
-      - "KR | Azure"
+      - "KR | Azuree"
       - "US | DigitalVirt"
       - "FR | Azure"
 
 proxies:
-  - name: "KR | Azure"
+  - name: "KR | Azuree"
     type: trojan
     server: "kr.rycbar.top"
     port: 443
