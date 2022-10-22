@@ -23,18 +23,6 @@ external-controller: 127.0.0.1:9090
 external-ui: ./clash-dashboard
 interface-name: wlan0
 rules:
-  - GEOSITE,category-ads-all,REJECT
-  - GEOSITE,icloud@cn,DIRECT
-  - GEOSITE,apple@cn,DIRECT
-  - GEOSITE,apple-cn,DIRECT
-  - GEOSITE,microsoft@cn,DIRECT
-  - GEOSITE,facebook,PROXY
-  - GEOSITE,youtube,PROXY
-  - GEOSITE,geolocation-cn,DIRECT
-  - GEOSITE,geolocation-!cn,PROXY
-  - GEOIP,telegram,PROXY,no-resolve
-  - GEOIP,private,DIRECT,no-resolve
-  - GEOIP,cn,DIRECT
   - MATCH,PROXY
 
 proxy-groups:
