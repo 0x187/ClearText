@@ -19,4 +19,5 @@ services:
     tty: true
     restart: unless-stopped
 volumes:
-  data: {}
+  minecraftdata:
+    external: true
