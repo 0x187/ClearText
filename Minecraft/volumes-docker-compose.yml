@@ -1,5 +1,5 @@
 version: "3.8"
-
+# docker volume create --name minecraftdata 
 services:
   mc:
     image: itzg/minecraft-server
