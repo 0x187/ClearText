@@ -13,6 +13,7 @@ services:
       - "25565:25565"
     volumes:
       - ./minecraftdata:/data
+      - ./plugins:/plugins
     stdin_open: true
     tty: true
     restart: unless-stopped
