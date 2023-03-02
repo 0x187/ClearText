@@ -1,1 +1,7 @@
 docker volume create minecraftdata
+
+--
+
+docker exec -i vg-mc rcon-cli
+
+
