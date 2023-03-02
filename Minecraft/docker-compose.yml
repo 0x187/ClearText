@@ -3,10 +3,11 @@ version: "3.8"
 services:
   mc:
     image: itzg/minecraft-server
+    container_name: vg-mc
     environment:
+      OVERRIDE_SERVER_PROPERTIES: "false"
       EULA: "true"
       TYPE: "VANILLA"
-      OVERRIDE_SERVER_PROPERTIES: "false"
       VERSION: "1.19.3"
       MEMORY: "2G"
     ports:
