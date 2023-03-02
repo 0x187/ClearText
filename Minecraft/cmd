@@ -1,5 +1,7 @@
 docker volume create minecraftdata
 
+docker-compose up -d
+
 --
 
 docker exec -i vg-mc rcon-cli
